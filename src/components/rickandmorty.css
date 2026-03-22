@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body{
+    background-color: #00050e;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 330px 330px 330px 330px 330px;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 80px; margin-right: 70px;
+    margin-bottom: 50px; margin-top: 50px;
+}
+
+.card-container.list-mode{
+    grid-template-columns: none;
+    display: list-item;
+    list-style-position: outside;
+    justify-content: center;
+    margin: 100px auto;
+    align-items: center;
+    .card{
+        width:20%;
+        height: 80%;
+        align-items: center;
+        justify-self: center;
+        .card-image{
+            width: 100%;
+            height: 80%;
+        }
+    }
+}
+
+.card-container-expanded{
+    display: list-item;
+    list-style-position: outside;
+    justify-content: center;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.card{
+    display: list-item;
+    cursor: pointer;
+    width: 300px;
+    height: 400px;
+    margin-bottom: 10px;
+    background-color: #000000;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    transition: 0.5s ease-in-out;
+}
+
+.card-expanded{
+    display: list-item;
+    cursor: pointer;
+    object-fit: contain;
+    width: 550px;
+    height: 800px;
+    margin-bottom: 10px;
+    background-color: #000000;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    transition: 0.5s ease-in-out;
+}
+
+.card-image-expanded{
+    margin: 5px;
+    border-radius: 8px;
+    width: 500px;
+    height: 550px;
+
+}
+
+
+
+.card:hover{
+    transform: translateY(-15px);
+    transition: 0.5s ease-in-out;
+    background-color: #00ff25;
+    color: #000000;
+}
+
+.card:active{
+    background: red;
+    transition: 0.001s ease-in-out;
+}
+
+.card-image{
+    margin: 5px;
+    object-fit: cover;
+    border-radius: 8px;
+    width: 500px;
+    height: 250px;
+}
+.header {
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    padding: 0;
+    position: relative;
+}
+
+.header-image {
+    display: block;
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    margin: 0;
+}
+
+.search-bar {
+    right: 200px;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    background-color: #000000;
+    transition: 0.5s ease-in-out;
+    border: 2px solid #ffffff;
+}
+
+.search-bar::placeholder {
+    color: #888888;
+}
+
+.search-bar:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    scale: 1.05;
+    transition: 0.5s ease-in-out;
+}
+
+.search-bar:focus {
+    border-color: #333333;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    background: #1c1c1c;
+}
+
+.search-bar:active {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.no-results {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+
+.display-button {
+    right: -320px;
+    position: relative;
+    border: 1px solid #ffffff;
+    background-color: #323232;
+    color: #ffffff;
+    padding-top: 5px; padding-bottom: 5px ;
+    padding-left: 20px; padding-right: 20px;
+    border-radius: 50px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.display-button:hover {
+    background-color: #00ff25;
+    color: #000000;
+    transition: 0.5s ease-in-out;
+    scale: 1.05;
+}
