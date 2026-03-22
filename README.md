@@ -68,7 +68,7 @@ npm run dev
 
 4. **Acesse:** http://localhost:3000
 
-5. **Deploy in Vercel:**
+5. **Deploy in Vercel:** https://ws-frontend-fabrica26-1-dun.vercel.app/
 
 ## 🌐 API Utilizada
 
