@@ -20,7 +20,6 @@ Uma aplicação web interativa para explorar personagens do universo Rick and Mo
 - **[Next.js](https://nextjs.org/)** - Framework React com App Router
 - **[React 19](https://react.dev/)** - Biblioteca UI com hooks modernos
 - **[TypeScript](https://www.typescriptlang.org/)** - Tipagem estática
-- **[Tailwind CSS v4](https://tailwindcss.com/)** - Framework CSS utilitário
 - **[ESLint](https://eslint.org/)** - Linting de código
 
 ## 📁 Estrutura do Projeto
@@ -31,13 +30,13 @@ src/
 │   ├── page.tsx              # 🏠 Página inicial com busca
 │   ├── character/[id]/
 │   │   └── page.tsx          # 📄 Detalhes do personagem
-│   └── layout.tsx            # 🖼️ Layout principal
+│   └── layout.tsx            
 ├── components/
 │   ├── rickandmorty.tsx      # 🎴 Grid de personagens
 │   ├── rickandmorty.css      # 🎨 Estilos customizados
 │   ├── header.tsx            # 🔍 Header com busca
 │   └── footer.tsx            # 🦶 Footer
-public/                       # 📦 Assets estáticos
+public/                       
 ```
 
 ## 🛠️ Scripts Disponíveis
@@ -68,6 +67,8 @@ npm run dev
 ```
 
 4. **Acesse:** http://localhost:3000
+
+5. **Deploy in Vercel:**
 
 ## 🌐 API Utilizada
 
