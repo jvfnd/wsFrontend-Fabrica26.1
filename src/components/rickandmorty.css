@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
 body{
-    background-color: #00050e;
+    background-color: #000307;
     background-repeat: repeat;
     background-size: cover;
 }
@@ -13,6 +13,7 @@ body{
     padding: 20px;
     margin-left: 80px; margin-right: 70px;
     margin-bottom: 50px; margin-top: 50px;
+    list-style: none;
 }
 
 .card-container.list-mode{
@@ -22,6 +23,7 @@ body{
     justify-content: center;
     margin: 100px auto;
     align-items: center;
+    list-style: none;
     .card{
         width:20%;
         height: 80%;
@@ -35,6 +37,7 @@ body{
 }
 
 .card-container-expanded{
+    list-style: none;
     display: list-item;
     list-style-position: outside;
     justify-content: center;
@@ -57,6 +60,7 @@ body{
 }
 
 .card-expanded{
+    list-style: none;
     display: list-item;
     cursor: pointer;
     object-fit: contain;
